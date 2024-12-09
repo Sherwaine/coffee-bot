@@ -1,99 +1,67 @@
-Got it! Here's the updated `README.md` with your correct email address:
 
-```markdown
 # Coffee Bot
 
-Welcome to the **Coffee Bot**! This is a simple interactive Python program that simulates a coffee shop ordering system. It prompts users to select their drink size, type, and milk preference, and generates a summary of the order before asking for their name.
+## Description
+Coffee Bot is an interactive command-line program that allows users to order drinks at a cafe. It asks for drink size, type (such as brewed coffee, mocha, or latte), and additional options like milk choice. The bot also provides a limited-edition special drink (peppermint mocha) and handles multiple drink orders. 
 
 ## Features
-
-- Choose from different drink sizes (small, medium, large).
-- Select your drink type (brewed coffee, mocha, or latte).
-- Customize your latte with different milk options (2% milk, non-fat milk, soy milk).
-- Get a summary of your order before finalizing it.
-
-## Requirements
-
-- Python 3.x
-
-## Installation
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/Sherwaine/coffee-bot.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd coffee-bot
-   ```
-
-3. Ensure you have Python 3.x installed. You can verify your Python version by running:
-
-   ```bash
-   python --version
-   ```
+- Customizes drink size (Small, Medium, Large)
+- Orders various drink types (Brewed Coffee, Mocha, Latte)
+- Latte milk options: 2% milk, Non-fat milk, Soy milk
+- Special limited edition: Peppermint Mocha
+- Handles multiple orders
+- Validates user input and requests corrections when necessary
+- Collects the user's name and confirms the order at the end
 
 ## How to Run
+1. Clone this repository to your local machine.
+2. Navigate to the project folder in the terminal.
+3. Run the script by typing:
 
-1. To run the program, simply execute the `coffee_bot.py` file in your terminal:
+```bash
+python coffee_bot.py
+```
 
-   ```bash
-   python coffee_bot.py
-   ```
+## Usage
 
-2. The bot will guide you through a series of questions:
-   - Choose a drink size (small, medium, or large).
-   - Select your drink type (brewed coffee, mocha, or latte).
-   - If you choose a latte, select a milk type (2% milk, non-fat milk, or soy milk).
-   - Finally, provide your name, and the bot will give you a confirmation message.
+1. The bot will greet you and ask for the size of your drink (Small, Medium, Large).
+2. Next, you'll choose the type of drink you want (Brewed Coffee, Mocha, or Latte).
+3. If you choose a latte, you will be asked for your milk preference (2% milk, Non-fat milk, or Soy milk).
+4. If you choose a mocha, you will have the option to try a limited-edition peppermint mocha.
+5. After ordering, you can add more drinks to your order or confirm your final order.
+6. Finally, the bot will ask for your name and print a confirmation message with your order.
 
-## Sample Output
-
-Here's an example of how the program might look when you run it:
-
+## Example
 ```
 Welcome to the cafe!
-What size drink can I get for you? 
-[a] Small 
-[b] Medium 
-[c] Large 
-> a
+What size drink can I get for you?
+[a] Small
+[b] Medium
+[c] Large
+> b
 What type of drink would you like?
 [a] Brewed Coffee
-[b] Mocha 
+[b] Mocha
 [c] Latte
 > c
 And what kind of milk for your latte?
 [a] 2% milk
 [b] Non-fat milk
 [c] Soy milk
-> b
+> a
+Alright, that's a medium 2% milk latte!
+Would you like to order another drink? (y/n)
+> n
+Okay, so I have:
+- medium 2% milk latte
 Can I get your name please? 
-> Alice
-Thanks, Alice! Your drink will be ready shortly.
+> John
+Thanks, John! Your order will be ready shortly.
 ```
 
 ## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Here are a few ways you could contribute:
-
-- Add more drink options or customization features.
-- Improve the user interface (e.g., by adding a GUI).
-- Fix bugs or enhance error handling.
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes!
 
 ## License
-
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contact
-
-If you have any questions or suggestions, feel free to open an issue or contact me at [sherwainehui02@gmail.com](mailto:sherwainehui02@gmail.com).
-
----
-
-Enjoy your coffee and happy coding! ☕
+This project is open-source and available under the [MIT License](LICENSE).
 ```
-
